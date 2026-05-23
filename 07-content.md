@@ -92,10 +92,31 @@ Before shipping any writing, re-read [`references/voice.md`](references/voice.md
 
 ## Tagline & heading shapes
 
-- **Tagline:** 3–5 words, declarative, no exclamation. Two shapes —
-  *permanence/craft* or *reliability/care* (see [`02-brand-decisions.md`](02-brand-decisions.md)).
-- **H1 hero:** `[Verb], [italic emotional descriptor].`
-- **H2 sections:** `[Number], [italic subject].`
+**Tagline:** principle — 3–5 words, declarative, no exclamation, states
+what the business is *for*. See the tagline shape menu in
+[`02-brand-decisions.md`](02-brand-decisions.md) Decision 4 — riff on a
+shape, don't copy one.
+
+**Heading principle (the only invariant):** **headings are statements,
+not labels.** Not "Our process" — say what's actually true about it.
+
+Heading shape menu — pick a *different* shape per long page, and don't
+default to the same shape across builds:
+
+| Shape | Example |
+|---|---|
+| `[Verb], [italic descriptor].` | "We design and build gardens that *settle into a place.*" |
+| `[Number], [italic subject].` | "Six services, *one team.*" |
+| Question | "Why do toilets run?" |
+| Imperative | "Call the kettle. Then the plumber." |
+| Two-part with em dash | "Sunday emergencies — quoted in writing, on the phone." |
+| Single short noun | "Pricing." |
+| Contrarian | "Cheaper isn't cheaper." |
+| Annotated micro-headline | "Step 03 // The handover" |
+| Fragment | "Mowed. Edged. Gone before lunch." |
+
+Do not use the same heading shape twice on one long page. Do not use the
+same dominant heading shape as the last build for the same niche.
 
 ---
 

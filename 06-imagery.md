@@ -43,9 +43,20 @@ is the sweet spot.
 
 ---
 
-## The realism prompt prefix (critical)
+## Image direction — pick one per build
 
-Prepend this to **every** image prompt:
+Image direction varies every build. Pick **one** direction in the Design
+Direction commit ([`02-brand-decisions.md`](02-brand-decisions.md)) and
+apply the same prefix to every prompt in the build. Mixing directions
+within a single site is the fastest way to make it look AI-generated.
+
+Four direction prefixes. None of them is the default — choose the one
+that fits the layout archetype, the niche, and the brand brief.
+
+### A — Documentary film-grain (cinematic-amateur)
+
+Best for: trades, hospitality, lifestyle, food, anywhere a sense of "real
+work happening" carries the brand.
 
 ```
 Shot on 35mm film, slight grain, natural ambient lighting, imperfect
@@ -55,9 +66,45 @@ shallow depth of field, shot by an amateur photographer documenting
 their work. No legible text, no logos, no watermarks.
 ```
 
-Without the film-realism language the output reads as obvious AI — too
-clean, too symmetric, plastic. With it, the output reads like real
-on-the-job snapshots.
+### B — Editorial clean (magazine-quiet)
+
+Best for: agencies, advisory, premium specialists, editorial brands.
+
+```
+Editorial photograph, large-format aesthetic, calm composition with
+generous negative space, controlled diffuse studio or window light,
+neutral colour palette with one quiet accent, sharp focus across the
+frame, no grain, considered framing — feels printed in a quarterly
+magazine. No legible text, no logos, no watermarks.
+```
+
+### C — Studio-lit product (commercial-precise)
+
+Best for: product businesses, e-commerce, single-product builds, food
+where the object is the hero.
+
+```
+Studio product photograph, controlled three-point lighting on a seamless
+backdrop, accurate colour, crisp microcontrast, soft shadow grounding
+the subject, slight specular highlight where the material warrants it,
+no environmental clutter. Single subject framed with deliberate space.
+No legible text, no logos, no watermarks.
+```
+
+### D — Brutalist / utilitarian (document-flat)
+
+Best for: industrial, technical, contrarian, brutalist-archetype builds.
+
+```
+Flat utilitarian documentation photograph, even fluorescent or daylight
+flood, no atmosphere, no shallow depth of field — everything in focus,
+hard shadows allowed, desaturated colour, frontal or right-angle
+composition. The subject reads like a record, not a mood. No legible
+text, no logos, no watermarks.
+```
+
+The 35mm-film prefix is one option, not the default — using it on every
+build is the very sameness this playbook exists to prevent.
 
 ### People — avoid by default
 

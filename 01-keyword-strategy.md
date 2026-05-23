@@ -41,17 +41,37 @@ The CSV is a keyword research export (typically from Semrush, Ahrefs, or a
 similar tool). Each row is a search query a real person types. The site is
 architected so that **every high-value keyword has a page that targets it.**
 
-The CSV drives three things:
+The CSV drives four things:
 
 | CSV signal | Drives |
 |---|---|
 | The **niche / seed keyword** | The whole brand: positioning, palette, voice, imagery |
+| **Intent split across the CSV** | The site's **page architecture** (see below) |
 | **Informational** intent rows | Blog posts (one post per primary keyword cluster) |
 | **Commercial / transactional** intent rows | Service pages and city/location landing pages |
 | **Volume** and **Keyword Difficulty** | Build priority — high volume ÷ low difficulty first |
 
 One CSV may contain everything, or the user may supply separate files
 (e.g. a blog-keyword CSV and a service-keyword CSV). Handle either.
+
+### The CSV also decides what pages exist
+
+The CSV doesn't just feed individual pages; it also drives the **whole
+page architecture** of the site, which feeds into
+[`02-brand-decisions.md`](02-brand-decisions.md) Decision 5.
+
+- A **commercial-heavy CSV** (lots of `[trade] [suburb]`, "near me",
+  "emergency [service]") implies a build with a thin core + many
+  service-leaf and location-leaf pages — and possibly no Blog at all.
+- An **informational-heavy CSV** (questions, "how to", "cost of",
+  "best …") implies a blog-led structure: a small core site + a deep
+  Blog with topic clusters.
+- An **even split** implies both: core + service leaves + a blog.
+- A **single dominant query** (e.g. one product, one service) implies a
+  single-page site with a deep FAQ and one or two long-form articles.
+
+Summarise the intent split when you report the CSV back (next section)
+and hand the implied architecture to [`02`](02-brand-decisions.md).
 
 ---
 
